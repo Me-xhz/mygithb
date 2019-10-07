@@ -1,0 +1,18 @@
+第一个任务，搞一个有权限管理的d2admin demo 。不需要后端，用mock模拟即可
+	---element-ui	
+	---@d2-projects/d2-crud
+	---axios
+第二个任务 d2admin 里面 如何上传图片到阿里云的OSS，有无官方或其他第三方的组件？
+		整个上传的实现流程。这个要求周一和我讲一下，如能通过mock来模拟更佳。
+		要求有上传进度条。上传大文件到oss 
+	   ---找找有无这样的vue 组件 m.myappgo.com/ipa/ 如有界面照这个做，然后实现文件上传到oss
+	   ---利用import OSS from 'ali-oss'
+	   ---用mock模拟数据
+	   ---axios请求数据
+
+第三个任务：看d2admin有无表格里面实现列拖拽的组件，如无，寻找相关组件，并集成进入d2admin。
+		这个要求可以演示。
+	--用到sortablejs插件和element-ui插件
+	--awe-dnd插件 
+第四个任务 axios 请求的时候 加上自定义的http头。
+	要求演示的时候发请求，然后在后端的 http请求里面 要看到这个头信息
